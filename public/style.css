@@ -1,0 +1,174 @@
+body{
+    background-image: linear-gradient(to right, rgba(31,98,229,20%), rgba(225, 239, 244, 0.14));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botao{
+    padding: 40px;
+}
+
+.hoje{
+    background-color: white;
+    border-radius: 20px;
+    width: 534px;
+    height: 614px;
+    display: block;
+    flex-direction: column;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0), 8px 8px 14px 0 rgba(0,0,0,0.05);
+}
+
+button{
+    cursor: pointer;
+    background-color: #FFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 80px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.2), 0 3px 12px 0 rgba(0,0,0,0.19);
+    margin: 0 15px;
+}
+
+button:hover:not(.atual) {
+    background-color: #f5ed0fbd;
+  }
+
+.atual{
+    font-weight: bold;
+    background-color: #F5EC0F;
+}
+
+h1{
+    margin-top:1%;
+    font-size:50px; 
+    color: #FFFF;
+    text-shadow: 1px 4px 10px rgba(151, 146, 146, 0.425);
+}
+
+h2{
+    font-size: 30px;
+}
+
+h8{
+    font-weight: bold;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.temp{
+    font-size: 100px;
+    position: relative;
+    top: -100px;
+}
+
+.gif{
+    display: flex;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.pxd{
+    background-color: white;
+    border-radius: 20px;
+    width: 204px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0), 8px 8px 14px 0 rgba(0,0,0,0.05);
+    margin: 0 20px;
+}
+
+.divpxd{
+    display: flex;
+    flex-direction: row;
+}
+
+.temp-mm{
+    position: relative;
+    top: -24px;
+    margin-left: 15px;
+    display: block;
+    align-items: left;
+    text-align: left ;
+}
+
+
+.temp-min, .temp-max{
+    margin-bottom: -30px;
+    position: relative;
+    top: -35px;
+    font-size: 50px;
+    margin-right: 25px;
+    display: block;
+    align-items: right;
+    text-align: right ;
+}
+
+.phoje{
+    margin-top:-5%;
+}
+
+.plocal{
+    position: relative;
+    top: -165px;
+}
+
+.clima-atual{
+    position: relative;
+    top: -30px;
+}
+
+.h12{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0), 8px 8px 14px 0 rgba(0,0,0,0.05);
+}
+
+
+
+tr{
+    display: flex;
+    justify-content: space-around;
+}
+
+th{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    font-size: 18px;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 100%;
+}
+
+.img-hoje{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-pxd{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
