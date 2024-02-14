@@ -138,7 +138,7 @@
 
 <div class="botao">    
     <a href="/"><button>Hoje</button></a>
-    <a href="horas"><button>12 Horas</button></a>
+    <a href="horas"><button>Horas</button></a>
     <a href="#"><button  class="atual">Próximos Dias</button></a>
 </div>
 
